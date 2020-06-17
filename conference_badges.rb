@@ -13,7 +13,7 @@ end
 def assign_rooms(names)
 room = 0
   names.each do |name|
-  "Hello, #{name}! You'll be assigned to room #{room}!"
+  return "Hello, #{name}! You'll be assigned to room #{room}!"
     room += 1
   end
 end
