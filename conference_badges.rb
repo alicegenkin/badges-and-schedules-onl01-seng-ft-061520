@@ -10,7 +10,6 @@ def batch_badge_creator(names)
   return newArray
 end
 
-
 def assign_rooms(names)
   counter = 1
   array1 =[]
@@ -19,4 +18,9 @@ def assign_rooms(names)
     counter+=1
   end
   array1
+end
+
+def printer
+puts batch_badge_creator(names)
+puts assign_rooms(names)
 end
