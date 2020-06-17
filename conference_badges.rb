@@ -12,7 +12,7 @@ end
 
 
 def assign_rooms(names)
-  counter = 0
+  counter = 1
   array1 =[]
   while counter < 8 do
     names.each do |name|
