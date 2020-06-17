@@ -12,8 +12,8 @@ end
 
 def assign_rooms(names)
 room = 0
-  names.each do |name|
-  return "Hello, #{name}! You'll be assigned to room #{room}!"
+  names.each_with_index do |name, index|
+  return "Hello, #{name}! You'll be assigned to room #{index}!"
     room += 1
   end
 end
