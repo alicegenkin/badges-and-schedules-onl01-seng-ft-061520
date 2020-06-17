@@ -10,11 +10,15 @@ def batch_badge_creator(names)
   return newArray
 end
 
+
 def assign_rooms(names)
+counter = 0
 array1 =[]
+while counter > 8
   names.each do |name|
-  array1.push("Hello, #{name}! You'll be assigned to room #{index}!")
-    index += 1
-  end
-  return array1
+    array1.push("Hello, #{name}! You'll be assigned to room #{counter}!")
+    counter+=1
+end
+end
+return array1
 end
